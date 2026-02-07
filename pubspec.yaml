@@ -1,0 +1,107 @@
+name: practice_english_ai
+description: A comprehensive English learning platform with AI-powered conversations, interactive lessons, IELTS preparation, and real money rewards system.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Navigation
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  lottie: ^2.7.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.3.2
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Authentication & Security
+  crypto: ^3.0.3
+  
+  # AdMob Integration
+  google_mobile_ads: ^4.0.0
+  
+  # Audio & Speech
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+  audioplayers: ^5.2.1
+  
+  # File Handling
+  path_provider: ^2.1.1
+  file_picker: ^6.1.1
+  image_picker: ^1.0.4
+  
+  # Utilities
+  intl: ^0.18.1
+  url_launcher: ^6.2.1
+  share_plus: ^7.2.1
+  connectivity_plus: ^5.0.1
+  device_info_plus: ^9.1.1
+  package_info_plus: ^4.2.0
+  
+  # Video Player
+  video_player: ^2.8.1
+  chewie: ^1.7.4
+  
+  # Charts & Analytics
+  fl_chart: ^0.65.0
+  
+  # Permissions
+  permission_handler: ^11.1.0
+  
+  # Firebase (Optional)
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.9
+  firebase_analytics: ^10.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+
